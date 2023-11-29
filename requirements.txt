@@ -1,0 +1,5 @@
+# In order to install whole packagees, you can use the following command in terminal:
+#pip install -r requirements.txt
+opencv-python
+matplotlib
+numpy
