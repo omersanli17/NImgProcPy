@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 # Read the image
-img = cv2.imread('DATA/dog_backpack.jpg')
+img = cv2.imread('Assets/dog_backpack.jpg')
 
 # Convert the image from BGR to RGB
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

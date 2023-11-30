@@ -7,7 +7,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Read the image in BGR mode
-img = cv2.imread('DATA/dog_backpack.jpg')
+img = cv2.imread('Assets/dog_backpack.jpg')
 plt.imshow(img)
 plt.show()
 

@@ -5,8 +5,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Read the image in RGB Mode 
-swiftImg = cv2.imread('DATA/adv.jpeg')
-shutterImg = cv2.imread('DATA/shutter.webp')
+swiftImg = cv2.imread('Assets/adv.jpeg')
+shutterImg = cv2.imread('Assets/shutter.webp')
 
 # Convert the image from BGR to RGB
 swiftImg = cv2.cvtColor(swiftImg, cv2.COLOR_BGR2RGB)
@@ -26,8 +26,8 @@ plt.show()
 # Displaying blended images with different sizes will not work ( ERR: Sizes of input arguments do not match)
 
 """
-swiftImg = cv2.imread('DATA/adv.jpeg')
-shutterImg = cv2.imread('DATA/shutter.webp')
+swiftImg = cv2.imread('Assets/adv.jpeg')
+shutterImg = cv2.imread('Assets/shutter.webp')
 
 swiftImg = cv2.cvtColor(swiftImg, cv2.COLOR_BGR2RGB)
 shutterImg = cv2.cvtColor(shutterImg, cv2.COLOR_BGR2RGB)
@@ -44,8 +44,8 @@ plt.show()
 """
 
 # Read Images in RGB Mode
-swiftImg2 = cv2.imread('DATA/adv.jpeg')
-shutterImg2 = cv2.imread('DATA/shutter.webp')
+swiftImg2 = cv2.imread('Assets/adv.jpeg')
+shutterImg2 = cv2.imread('Assets/shutter.webp')
 
 swiftImg2 = cv2.cvtColor(swiftImg2, cv2.COLOR_BGR2RGB)
 shutterImg2 = cv2.cvtColor(shutterImg2, cv2.COLOR_BGR2RGB)
