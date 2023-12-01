@@ -42,6 +42,7 @@ plt.show()
 whiteBackground = np.full(watermarkImg.shape, 255, dtype=np.uint8)
 
 # Mask shape has(600,600) in order to have 3 channels, bitwise operator used by mask
+# It is just to show you can use bitwise or to use a mask to mask certain region of the image. The results is the same as before, since it is just a white background.
 bk = cv2.bitwise_or(whiteBackground, whiteBackground, mask=mask)
 plt.imshow(bk)
 plt.show()
@@ -63,4 +64,3 @@ large_img[y_offset:y_offset+small_img.shape[0], x_offset:x_offset+small_img.shap
 
 plt.imshow(large_img)
 plt.show()
-
