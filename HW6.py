@@ -55,10 +55,49 @@ blur = cv2.blur(image,ksize=(5,5))
 show(blur)
 
 
+
+# Gaussian Blur on image
+gaussian = cv2.GaussianBlur(image, ksize=(5, 5), sigmaX=0)
+show(gaussian)
+
+# Median Blur on image, 5 by 5 kernel
+'''
+It good when reducing image noise.
+The function smoothes an image using the median filter with the 𝚔𝚜𝚒𝚣𝚎×𝚔𝚜𝚒𝚣𝚎 aperture. 
+Each channel of a multi-channel image is processed independently. 
+'''
+median = cv2.medianBlur(image, 5)
+show(median)
+
+# Real world example, woman image that has noise on it
+woman_image = readRGB('noise_woman.png')
+show(woman_image)
+
+reducedNoiseImage = cv2.medianBlur(woman_image,3)
+show(reducedNoiseImage)
+
+# Bilateral, reduced unwanted noise very well, keep the edges sharp
+'''
+Edge preserving filter
+Replace the pixels with an average of the pixels around it,
+but takes into account the variation of intensity of preserve the edges
+'''
+
+# SigmaColor is the standard deviation of the color space
+# SigmaSpace is the standard deviation of the coordinate space
+bilateral = cv2.bilateralFilter(image, d=9, sigmaColor=75, sigmaSpace=75)
+show(bilateral)
+
+
 # Displaying Kernel.gif to understand kernel size 
 
 from SubOperatorSample.GIFLoading import show_loading_gif
 
 if __name__ == "__main__":
     gif_file_name = "kernel"  # Replace with the desired GIF file name without extension
-    show_loading_gif(gif_file_name)
+    loading_window = show_loading_gif(gif_file_name)
+
+    # Close the loading window after the processing is done
+    loading_window.stopAnimation()
+    loading_window.close()
+
