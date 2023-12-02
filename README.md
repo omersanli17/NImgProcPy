@@ -1,6 +1,8 @@
 # NImgProcPy
 
+![Alt Text](relative/path/to/Assets/Readme/BG.png)
 Personal space dedicated to learning and experimenting with image processing using Python. 
+
 ## What's Inside:
 
 ### HW1 
