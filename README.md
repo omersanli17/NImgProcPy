@@ -26,6 +26,9 @@ Understand kernel size, how to noise reduction algorithm works
 ### HW7
 Morphology, dilation and erosion, gradient
 
+### HW8
+Sobel–Feldman, Laplace
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
