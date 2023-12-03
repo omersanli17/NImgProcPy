@@ -1,6 +1,5 @@
 # NImgProcPy
 
-![Alt Text](relative/path/to/Assets/Readme/BG.png)
 <img src="Assets/Readme/BG.png" alt="Background Image" width="600"/>
 Personal space dedicated to learning and experimenting with image processing using Python. 
 
