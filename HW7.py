@@ -47,6 +47,7 @@ black_noise = np.random.randint(low=0,high=2,size=(600,600))
 black_noise = black_noise * -255
 show(black_noise)
 
+# In order to get noise on white negative -255 is added to positive brightnesss of white
 black_noise_image = black_noise + image
 black_noise_image[black_noise_image == -255] = 0
 show(black_noise_image)
