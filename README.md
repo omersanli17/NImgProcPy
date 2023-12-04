@@ -29,6 +29,9 @@ Morphology, dilation and erosion, gradient
 ### HW8
 Sobel–Feldman, Laplace
 
+### HW9
+Plot Histogram
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
