@@ -32,6 +32,10 @@ Sobel–Feldman, Laplace
 ### HW9
 Plot Histogram
 
+### HW10
+Histogram Equalization
+
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
