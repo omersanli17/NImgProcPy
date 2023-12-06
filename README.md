@@ -33,7 +33,7 @@ Sobel–Feldman, Laplace
 Plot Histogram
 
 ### HW10
-Histogram Equalization
+Histogram Equalization, HSV histogram equalization on higher contrast images
 
 
 ### Bitwise

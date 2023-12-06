@@ -43,3 +43,28 @@ plt.show()
 
 plt.plot(histValuesRed)
 plt.show()
+
+# 0 for grayscale
+gorilla = cv2.imread('Assets/gorilla.jpg',0) 
+showGray(gorilla)
+
+histValueGorilla = cv2.calcHist([gorilla],channels=[0],mask=None,histSize=[256],ranges=[0,256])
+plt.plot(histValueGorilla)
+plt.show()
+
+# Equalization
+equ = cv2.equalizeHist(gorilla)
+showGray(equ)
+
+histValueEqu = cv2.calcHist([equ],channels=[0],mask=None,histSize=[256],ranges=[0,256])
+plt.plot(histValueEqu)
+plt.show()
+
+colorGorilla = cv2.imread('Assets/gorilla.jpg')
+show(colorGorilla)
+
+hsvVerisonGorilla = cv2.cvtColor(colorGorilla,cv2.COLOR_BGR2HSV)
+
+# Value channel of hsvVerisonGorilla is the brightness
+hsvVerisonGorilla[:,:,2] = cv2.equalizeHist(hsvVerisonGorilla[:,:,2])
+show(cv2.cvtColor(hsvVerisonGorilla,cv2.COLOR_HSV2RGB))
