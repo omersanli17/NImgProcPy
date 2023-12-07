@@ -35,6 +35,8 @@ Plot Histogram
 ### HW10
 Histogram Equalization, HSV histogram equalization on higher contrast images
 
+### HW11
+Review up to HW10
 
 ### Bitwise
 Merge two rectangle by bitwise operator
