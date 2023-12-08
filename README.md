@@ -38,6 +38,9 @@ Histogram Equalization, HSV histogram equalization on higher contrast images
 ### HW11
 Review up to HW10
 
+### HW12
+Directly stream the video recording, record the frame on local folder
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
