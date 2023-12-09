@@ -41,11 +41,18 @@ Review up to HW10
 ### HW12
 Directly stream the video recording, record the frame on local folder
 
+### HW13
+Read local video file and sleep for showing actual FPS
+
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
 ### GIFLoading
 Show GIF on specified window size by PyQt5, called function within other .py file
+
+### Youtube Video Downloader
+YT Video Downloader Script by 'pytube'
 
 
 
