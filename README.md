@@ -44,6 +44,8 @@ Directly stream the video recording, record the frame on local folder
 ### HW13
 Read local video file and sleep for showing actual FPS
 
+### HW13
+Draw a circle on local video by listening the action of mouse click
 
 ### Bitwise
 Merge two rectangle by bitwise operator
