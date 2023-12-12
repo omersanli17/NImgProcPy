@@ -1,8 +1,3 @@
-#You only have one task here. Create a program that reads in a live stream from a camera on your computer 
-# (or if you don't have a camera, just open up a video file, in Assets folder iPhone X Trailer - Apple.mp4 ). 
-# Then whenever you click the left mouse button down, create a blue circle around where you've clicked.
-# Check out the video for an example of what the final project should look like**
-
 import cv2
 import numpy as np
 import os
