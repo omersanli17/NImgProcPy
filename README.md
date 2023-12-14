@@ -53,6 +53,9 @@ Detect dog face, understanding algorithm methods of object detection
 ### HW16
 Harris Corner Detection Algorithm
 
+### HW17
+Shi-Tomasi Corner Detection
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
