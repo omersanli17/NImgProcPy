@@ -12,14 +12,9 @@ real_chessboard = cv2.imread('Assets/real_chessboard.jpg')
 chessboard_gray = cv2.cvtColor(chessboard, cv2.COLOR_BGR2GRAY)
 real_chessboard_gray = cv2.cvtColor(real_chessboard, cv2.COLOR_BGR2GRAY)
 
-# Find the corners with the goodFeaturesToTrack function
-# Q: What does goodFeaturesToTrack do ? 
-# A: It finds N strongest corners in the image by Shi-Tomasi method
-# Q: What thisp provide ? 
-# A: Minimum accepted quality of image corners  
+# goodFeaturesToTrack finds N strongest corners in the image by Shi-Tomasi method
 
-# What are the input parameters of the goodFeaturesToTrack function ?
-# A: image, maxCorners, qualityLevel, minDistance 
+# image, maxCorners, qualityLevel, minDistance 
 # qualityLevel: Parameter characterizing the minimal accepted quality of image corners.
 # minDistance: Minimum possible Euclidean distance between the returned corners.
 # -1 for detecting all corners, instead of 5
