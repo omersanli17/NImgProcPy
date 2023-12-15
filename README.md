@@ -56,6 +56,9 @@ Harris Corner Detection Algorithm
 ### HW17
 Shi-Tomasi Corner Detection
 
+### HW18
+Canny Edge Detection
+
 ### Bitwise
 Merge two rectangle by bitwise operator
 
